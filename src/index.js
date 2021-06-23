@@ -1,9 +1,17 @@
+import home from './home';
+import nav from './nav';
+import menu from './menu';
+import contact from './contact';
+import './style.css';
 
-function component() {
-  const element = document.createElement('div');
 
-console.log('waat')
-  return element;
-}
 
-document.body.appendChild(component());
+const body = document.getElementsByTagName('body')[0];
+body.prepend(nav());
+
+
+const content = document.getElementById('content');
+content.className = 'container-fluid';
+content.append(home());
+content.append(menu());
+content.append(contact());
