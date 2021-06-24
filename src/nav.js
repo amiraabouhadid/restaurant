@@ -2,7 +2,7 @@
 const nav= ()=> {
   const navArr = ['Home', 'Menu', 'Contact'];
   const nav = document.createElement('nav');
-  nav.classList = 'nav bg-dark d-flex justify-content-around p-3'
+  nav.className = 'nav bg-dark d-flex justify-content-around p-3'
 
 
   navArr.forEach((l, i) => {

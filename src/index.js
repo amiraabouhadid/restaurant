@@ -1,17 +1,14 @@
-import home from './home';
-import nav from './nav';
-import menu from './menu';
-import contact from './contact';
-import './style.css';
+import home from './home.js';
+import nav from './nav.js';
+import menu from './menu.js';
+import contact from './contact.js';
+
+
 
 
 
 const body = document.getElementsByTagName('body')[0];
 body.prepend(nav());
-
-
-const content = document.getElementById('content');
-content.className = 'container-fluid';
-content.append(home());
-content.append(menu());
-content.append(contact());
+body.append(home());
+body.append(menu());
+body.append(contact());
