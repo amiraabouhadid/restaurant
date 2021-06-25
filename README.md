@@ -4,7 +4,7 @@
 A restaurant page created using Javascript's DOM manipulation and npm's WebPack that includes a home, menu and contact sections.
 
 ## LIVE DEMO
-[!Live Demo](https://pizzeria-d-amerioo.netlify.app/) 
+[!Live Demo](https://pizzeria-d-amerioo.netlify.app/)
 
 ## Built With
 - HTML5
@@ -56,4 +56,4 @@ Give a ⭐️ if you like this project!
 ## 📝 MIT License
 
 
-This project is [MIT](lic.url) licensed.
+This project is [MIT](https://mit-license.org/) licensed.
