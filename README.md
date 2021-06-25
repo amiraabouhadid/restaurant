@@ -29,6 +29,7 @@ $ git clone git@github.com:amiraabouhadid/restaurant.git.
 - run ``` npm start ```
 
 
+
 ### Prerequisites
 - GitHub
 - Git
