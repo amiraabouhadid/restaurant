@@ -1,16 +1,15 @@
 const home = () => {
   const homeContainer = document.createElement('div');
-  homeContainer.classList ='container-fluid text-center mx-auto'
+  homeContainer.classList ='container-fluid text-center mx-auto p-5'
   homeContainer.id= 'home';
 
   const homeHeader = document.createElement('h1');
   homeHeader.innerHTML = "Pizzeria d'Amerioo";
   homeHeader.classList = 'p-5';
 
-
   const headerImage = document.createElement('img');
   headerImage.src = 'https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.1R4hze9Sou3MQzoXTw8aBgHaFj%26pid%3DApi&f=1';
-  headerImage.classList = 'pt-2 w-100';
+  headerImage.classList = 'pt-5 w-100';
 
   const imageContainer = document.createElement('div');
 
@@ -18,16 +17,16 @@ const home = () => {
 
 
   const introParagraph = document.createElement('p');
-  introParagraph.innerHTML= "Amerioo's pizzeria offers you authentic napolitanian pizza! Satisfy your carbohydrates cravings now by ordering our speciality: Margareta Pizza!"
+  introParagraph.innerHTML= "Amerioo's pizzeria offers you authentic napolitanian pizza! Satisfy your carbohydrates cravings now by ordering any of our fresh baked pizzas!"
   introParagraph.classList = 'pb-1';
 
   const hoursContainer= document.createElement('div');
 
-  const hours= document.createElement('p');
+  const hours= document.createElement('b');
   hours.innerHTML= 'Monday-Saturday: 11am - 11pm';
 
   const locationContainer = document.createElement('div');
-  const location = document.createElement('p');
+  const location = document.createElement('i');
   location.innerHTML = 'Buckingham Palace St. 123, Cairo, Egypt';
 
 

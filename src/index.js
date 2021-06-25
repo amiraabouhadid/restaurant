@@ -14,4 +14,7 @@ const content = document.createElement('div');
 content.id = 'content';
 body.append(content);
 content.append(home());
+const breakLine = document.createElement('hr');
+content.appendChild(breakLine);
 content.append(menu());
+content.appendChild(breakLine);
