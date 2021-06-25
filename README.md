@@ -1,6 +1,10 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
 # JAVASCRIPT PROJECT: RESTAURANT
+A restaurant page created using Javascript's DOM manipulation and npm's WebPack that includes a home, menu and contact sections.
+
+## LIVE DEMO
+[!Live Demo](https://amiraabouhadid.github.io/restaurant/) 
 
 ## Built With
 - HTML5
