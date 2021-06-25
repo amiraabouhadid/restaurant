@@ -1,6 +1,7 @@
 import home from './home.js';
 import menu from './menu.js';
 import contact from './contact.js';
+import footer from './footer.js';
 import nav from './nav.js';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './style.css';
@@ -18,3 +19,5 @@ const breakLine = document.createElement('hr');
 content.appendChild(breakLine);
 content.append(menu());
 content.appendChild(breakLine);
+content.append(contact());
+content.append(footer());
