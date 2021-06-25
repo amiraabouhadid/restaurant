@@ -1,7 +1,7 @@
 const contact = () => {
   const contactContainer = document.createElement('div');
   contactContainer.id = 'contact';
-  contactContainer.classList = 'p-5 container-fluid text-center mx-auto';
+  contactContainer.classList = 'p-5 my-5 container-fluid text-center mx-auto';
 
   const contactTitle = document.createElement('h3');
   contactTitle.innerHTML = 'CONTACT';

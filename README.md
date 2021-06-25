@@ -23,7 +23,7 @@ $ git clone git@github.com:amiraabouhadid/restaurant.git.
 ```
 - Press Enter to create your local clone.
 - run ```cd restaurant```
-- now you an open the project with any code editor and go live or simply open the ./dist/index.html page with the browser.
+- run ``` npm start ```
 
 
 ### Prerequisites

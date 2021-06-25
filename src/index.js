@@ -6,16 +6,23 @@ import nav from './nav';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './style.css';
 
+
 const body = document.getElementsByTagName('body')[0];
 body.prepend(nav());
 
 const content = document.createElement('div');
 content.id = 'content';
 body.append(content);
-content.append(home());
-const breakLine = document.createElement('hr');
-content.appendChild(breakLine);
-content.append(menu());
-content.appendChild(breakLine);
-content.append(contact());
+
+
+if (document.URL.includes('#menu')) {
+  content.append(menu());
+}
+else if (document.URL.includes('contact')) {
+  content.append(contact());
+} else {
+  content.append(home());
+}
+
+
 content.append(footer());
