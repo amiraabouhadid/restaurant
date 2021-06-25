@@ -56,4 +56,4 @@ Give a ⭐️ if you like this project!
 ## 📝 MIT License
 
 
-This project is [MIT](https://mit-license.org/) licensed.
+This project is [MIT](https://mit-license.org/) licensed.[CC](https://creativecommons.org/licenses/by-nc/4.0/)
