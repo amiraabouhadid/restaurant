@@ -1,6 +1,6 @@
 
 const nav= ()=> {
-  const navArr = ['Home', 'Menu', 'Contact'];
+  const navArr = ['home', 'menu', 'contact'];
   const nav = document.createElement('nav');
   nav.className = 'nav bg-dark d-flex justify-content-around p-3'
 

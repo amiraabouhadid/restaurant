@@ -1,4 +1,5 @@
 const path = require('path');
+const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 
 module.exports = {
@@ -6,29 +7,25 @@ module.exports = {
   devServer: {
     contentBase: './dist',
   },
-  module: {
-    rules: [
-      {
-      test: /\.css$/i,
-      use: ['style-loader', 'css-loader'],
-    },
-    {
-      test: /\.(png|svg|jpg|jpeg|gif)$/i,
-      type: 'asset/resource',
-    },
-    {
-      test: /\.(jpg|png)$/,
-      use: {
-        loader: 'url-loader',
-      },
-    },
+  plugins: [
+    new HtmlWebpackPlugin({
+      title: 'Restaurant',
+    }),
+
   ],
+  module: {
+    rules: [{
+      test: /\.css$/i,
+      use: ['style-loader', 'css-loader']
+    }]
   },
+
+
   mode: 'development',
   output: {
-    filename: 'bundle.js',
+    filename: 'main.js',
     path: path.resolve(__dirname, 'dist'),
-    publicPath: '/',
+    clean: true,
   },
 
 };

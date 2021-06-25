@@ -1,6 +1,7 @@
 const home = () => {
   const homeContainer = document.createElement('div');
   homeContainer.classList ='container-fluid text-center mx-auto'
+  homeContainer.id= 'home';
 
   const homeHeader = document.createElement('h1');
   homeHeader.innerHTML = "Pizzeria d'Amerioo";
