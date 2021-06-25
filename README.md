@@ -4,7 +4,7 @@
 A restaurant page created using Javascript's DOM manipulation and npm's WebPack that includes a home, menu and contact sections.
 
 ## LIVE DEMO
-[!Live Demo](https://amiraabouhadid.github.io/restaurant/) 
+[!Live Demo](https://pizzeria-d-amerioo.netlify.app/) 
 
 ## Built With
 - HTML5
