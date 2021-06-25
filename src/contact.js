@@ -9,7 +9,7 @@ const contact = () => {
 
   const form = document.createElement('form');
   form.actionon = '#';
-  form.classList ='px-5';
+  form.classList = 'px-5';
   form.innerHTML = `  <p> We would like to hear from you, feel free to send us a message! </p>
   <div class="form-group py-4">
     <label for="inputEmail1">Email address</label>
@@ -28,6 +28,5 @@ const contact = () => {
   contactContainer.appendChild(contactTitle);
   contactContainer.appendChild(form);
   return contactContainer;
-
-}
+};
 export default contact;

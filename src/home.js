@@ -1,7 +1,7 @@
 const home = () => {
   const homeContainer = document.createElement('div');
-  homeContainer.classList ='container-fluid text-center mx-auto p-5'
-  homeContainer.id= 'home';
+  homeContainer.classList = 'container-fluid text-center mx-auto p-5';
+  homeContainer.id = 'home';
 
   const homeHeader = document.createElement('h1');
   homeHeader.innerHTML = "Pizzeria d'Amerioo";
@@ -15,20 +15,18 @@ const home = () => {
 
   const introParagraphContainer = document.createElement('div');
 
-
   const introParagraph = document.createElement('p');
-  introParagraph.innerHTML= "Amerioo's pizzeria offers you authentic napolitanian pizza! Satisfy your carbohydrates cravings now by ordering any of our fresh baked pizzas!"
+  introParagraph.innerHTML = "Amerioo's pizzeria offers you authentic napolitanian pizza! Satisfy your carbohydrates cravings now by ordering any of our fresh baked pizzas!";
   introParagraph.classList = 'pb-1';
 
-  const hoursContainer= document.createElement('div');
+  const hoursContainer = document.createElement('div');
 
-  const hours= document.createElement('b');
-  hours.innerHTML= 'Monday-Saturday: 11am - 11pm';
+  const hours = document.createElement('b');
+  hours.innerHTML = 'Monday-Saturday: 11am - 11pm';
 
   const locationContainer = document.createElement('div');
   const location = document.createElement('i');
   location.innerHTML = 'Buckingham Palace St. 123, Cairo, Egypt';
-
 
   imageContainer.appendChild(headerImage);
   homeHeader.appendChild(imageContainer);
@@ -41,5 +39,5 @@ const home = () => {
   homeContainer.appendChild(locationContainer);
 
   return homeContainer;
-}
+};
 export default home;

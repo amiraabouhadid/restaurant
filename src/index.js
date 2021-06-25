@@ -1,12 +1,10 @@
-import home from './home.js';
-import menu from './menu.js';
-import contact from './contact.js';
-import footer from './footer.js';
-import nav from './nav.js';
+import home from './home';
+import menu from './menu';
+import contact from './contact';
+import footer from './footer';
+import nav from './nav';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './style.css';
-
-
 
 const body = document.getElementsByTagName('body')[0];
 body.prepend(nav());
