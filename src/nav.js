@@ -1,4 +1,3 @@
-
 const nav = () => {
   const navArr = ['Home', 'Menu', 'Contact'];
   const nav = document.createElement('nav');
@@ -6,22 +5,17 @@ const nav = () => {
 
   navArr.forEach((l) => {
     const a = document.createElement('a');
-    const content = document.getElementById('content');
     a.classList = 'nav-link text-light';
     a.href = `#${l.toLowerCase()}`;
     a.id = `${l.toLowerCase()}Link`;
-    a.onclick = function(){
-      setTimeout(function(){
-          window.location.reload();
+    a.onclick = () => {
+      setTimeout(() => {
+        window.location.reload();
       }, 5);
-
-
-
-    }
+    };
     a.innerHTML = l;
     nav.append(a);
   });
-
 
   return nav;
 };
