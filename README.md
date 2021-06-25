@@ -2,6 +2,9 @@
 
 # JAVASCRIPT PROJECT: RESTAURANT
 A restaurant page created using Javascript's DOM manipulation and npm's WebPack that includes a home, menu and contact sections.
+![Screenshot from 2021-06-25 20-20-44](https://user-images.githubusercontent.com/56790126/123469187-01dd9480-d5f3-11eb-921c-e69cbe9253d3.png)
+![Screenshot from 2021-06-25 20-23-23](https://user-images.githubusercontent.com/56790126/123469390-479a5d00-d5f3-11eb-852e-3cb2c6c56e78.png)
+![Screenshot from 2021-06-25 20-22-47](https://user-images.githubusercontent.com/56790126/123469403-49fcb700-d5f3-11eb-9465-23328231a0d0.png)
 
 ## LIVE DEMO
 [!Live Demo](https://pizzeria-d-amerioo.netlify.app/)
