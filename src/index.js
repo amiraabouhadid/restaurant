@@ -1,27 +1,24 @@
-import _ from 'lodash';
-import myName from './myName';
-import printMe from './print.js';
+import home from './home';
+import menu from './menu';
+import contact from './contact';
+import footer from './footer';
+import nav from './nav';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import './style.css';
 
-function addname(){
-  const element = document.createElement('div');
-  element.innerHTML = myName('Cody');
-  return element;
-}
-function component() {
-  const element = document.createElement('div');
-  const btn = document.createElement('button');
+const body = document.getElementsByTagName('body')[0];
+body.prepend(nav());
 
-  // Lodash, currently included via a script, is required for this line to work
-  element.innerHTML = _.join(['Hello', 'webpack'], ' ');
-  element.classList.add('hello');
-  btn.innerHTML = 'click me and check console';
-  btn.onclick = printMe;
-  element.appendChild(btn);
+const content = document.createElement('div');
+content.id = 'content';
+body.append(content);
 
-
-
-  return element;
+if (document.URL.includes('#menu')) {
+  content.append(menu());
+} else if (document.URL.includes('contact')) {
+  content.append(contact());
+} else {
+  content.append(home());
 }
 
-document.body.appendChild(component());
-document.body.appendChild(addname());
+content.append(footer());

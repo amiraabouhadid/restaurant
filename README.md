@@ -3,8 +3,12 @@
 # JAVASCRIPT PROJECT: RESTAURANT
 A restaurant page created using Javascript's DOM manipulation and npm's WebPack that includes a home, menu and contact sections.
 
+![Screenshot from 2021-06-25 20-26-45](https://user-images.githubusercontent.com/56790126/123469873-e9ba4500-d5f3-11eb-8734-411939193d50.png)
+![Screenshot from 2021-06-25 20-26-51](https://user-images.githubusercontent.com/56790126/123469879-eaeb7200-d5f3-11eb-9de3-9ed70c7adc85.png)
+![Screenshot from 2021-06-25 20-26-54](https://user-images.githubusercontent.com/56790126/123469886-ec1c9f00-d5f3-11eb-9fd5-dce8470ae7b7.png)
+
 ## LIVE DEMO
-[!Live Demo](https://pizzeria-d-amerioo.netlify.app/)
+[Live Demo Link](https://pizzeria-d-amerioo.netlify.app/)
 
 ## Built With
 - HTML5
@@ -23,7 +27,8 @@ $ git clone git@github.com:amiraabouhadid/restaurant.git.
 ```
 - Press Enter to create your local clone.
 - run ```cd restaurant```
-- now you an open the project with any code editor and go live or simply open the ./dist/index.html page with the browser.
+- run ``` npm start ```
+
 
 
 ### Prerequisites
